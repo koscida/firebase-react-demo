@@ -13,6 +13,13 @@ export default StyleSheet.create({
 		alignSelf: "center",
 		margin: 30,
 	},
+	error: {
+		color: "red",
+		marginTop: 10,
+		marginBottom: 10,
+		marginLeft: 30,
+		marginRight: 30,
+	},
 	input: {
 		height: 48,
 		borderRadius: 5,
@@ -43,6 +50,7 @@ export default StyleSheet.create({
 		flex: 1,
 		alignItems: "center",
 		marginTop: 20,
+		marginBottom: 20,
 	},
 	footerText: {
 		fontSize: 16,
